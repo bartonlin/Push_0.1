@@ -21,7 +21,7 @@ script: true
   
  # Another command/method to run tests
 script: 
-  - python TestCalculator.py
+  - python test.py
 
 deploy:
   provider: heroku
@@ -29,4 +29,4 @@ deploy:
     secure: $HEROKU_API_KEY
   app: test-my-travisci-project
   on:
-    repo: jimting/GitProjectTutorialExample
+    repo: bartonlin/Push_0.1
